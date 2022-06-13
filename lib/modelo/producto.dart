@@ -21,7 +21,7 @@ class Producto {
             IdProduct = json['IdProduct'],
             Name = json['Name'],
             IdProductCategory = json['IdProductCategory'],
-            Price = json['Price'];
+            Price = double.parse(json['Price']);
 
     // Producto ---> mapa
     Map<String, dynamic> toMap() {
